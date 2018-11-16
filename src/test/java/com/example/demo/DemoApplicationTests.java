@@ -29,7 +29,6 @@ public class DemoApplicationTests {
 	@Test
 	public void proxyTest() {
 
-		Object
 		//增强print方法
 		PrintStream printStream = new PrintStream(System.out);
 		Class<PrintStream> aClass = PrintStream.class;
